@@ -1,0 +1,5 @@
+<app-header *ngIf="connectionSuccesful"></app-header>
+<div class="container" *ngIf="!connectionSuccesful">
+<button type="button" class="btn btn-primary" (click)="getAccount()" *ngIf="!connectionSuccesful">Connect</button>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,21 @@
+.form_container{
+    padding: auto;
+    margin: auto;
+    margin-top: 20px;
+    width: 750px;
+}
+
+.container{
+     margin-top: auto;
+    align-items: center;
+}
+
+.button {
+    padding: auto;
+   margin: auto;
+   align-items: center;
+}
+
+.buttonItem {
+    align-self: center;
+}
